@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url(../fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+  font-family: "GolosText-Regular";
+  src: url(../fonts/GolosText-Regular.ttf);
+}
+@font-face {
+  font-family: "GolosText-Medium";
+  src: url(../fonts/GolosText-Medium.ttf);
+}
+@font-face {
+  font-family: "GolosText-Bold";
+  src: url(../fonts/GolosText-Bold.ttf);
+}
