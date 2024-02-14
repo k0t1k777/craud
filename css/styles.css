@@ -544,8 +544,10 @@ h2 {
 }
 
 .members-slider {
-  margin-top: 44px;
+  margin-top: 52px;
   overflow: hidden;
+  width: 100%;
+  max-width: 1240px;
 }
 
 .members-slider__wrapper {
@@ -596,7 +598,7 @@ h2 {
 }
 
 .member-name {
-  margin: 24px 0 6px;
+  margin: 36px 0 6px;
   font-family: "GolosText-Medium", serif;
   font-size: 24px;
   line-height: 28.8px;
@@ -777,6 +779,9 @@ footer {
   h1 {
     font-size: 1.7rem;
   }
+  .members-slider {
+    min-width: 991px;
+  }
   .hero__buttons {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -945,6 +950,9 @@ footer {
   h1 {
     font-size: 2.7rem;
   }
+  .members-slider {
+    min-width: 768px;
+  }
   .hero__text {
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
@@ -955,8 +963,8 @@ footer {
   }
   .sun {
     width: 90vw;
-    height: 90vw;
-    left: 5vw;
+    height: 85vw;
+    left: 8vw;
   }
   .city {
     left: 5vw;
@@ -985,6 +993,9 @@ footer {
 @media (max-width: 576px) {
   section {
     padding: 48px 0;
+  }
+  .members-slider {
+    min-width: 320px;
   }
   .container {
     padding: 0 20px;
@@ -1023,21 +1034,22 @@ footer {
   }
   .city {
     width: 900px;
-    left: 9vw;
+    left: 8vw;
+    bottom: 8px;
   }
   .sun {
     max-width: 300px;
     max-height: 300px;
   }
   .king {
-    left: 13vw;
+    left: 18vw;
     width: 54px;
-    bottom: 118px;
+    bottom: 124px;
   }
   .queen {
-    left: calc(50% + 36px);
+    left: calc(50% + 46px);
     width: 60px;
-    bottom: 165px;
+    bottom: 172px;
   }
   .running-line__item {
     font-size: 16px;
@@ -1060,7 +1072,7 @@ footer {
     max-width: 335px;
   }
 
-   .table {
+  .table {
     margin-top: 28px;
   }
 
@@ -1127,7 +1139,8 @@ footer {
 
   .members {
     position: relative;
-    margin-top: 87px;
+    margin-top: 83px;
+    margin-bottom: 137px;
   }
 
   .members .slider-buttons {
@@ -1175,7 +1188,7 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    margin-top: 150px;
+    margin-top: 140px;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     -webkit-transition: all 0.6s ease-in-out;
@@ -1208,7 +1221,7 @@ footer {
   .aeroplane {
     bottom: auto;
     left: 7vw;
-    top: calc(50% - 180px);
+    top: calc(50% - 153px);
   }
 
   .stages .slider-buttons {
@@ -1221,7 +1234,7 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 14px;
+    margin-top: 23px;
   }
   .stages__slide:last-child .stages__item span {
     max-width: 100%;
@@ -1256,9 +1269,19 @@ footer {
     width: 387px;
     height: 435px;
     top: -37px;
-    left: -31px 
+    left: -31px;
   }
   .member-photo {
     margin-bottom: 39px;
+  }
+  .container__footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  footer {
+    padding: 34px 0 72px;
   }
 }
